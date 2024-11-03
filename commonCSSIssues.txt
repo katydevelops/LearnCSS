@@ -1,0 +1,17 @@
+Floating Footer: if you body and html elements do not take the full height of the viewport - or if content doesn't extend enough vertically, the footer will sit right below content rather than sticking at the bottom of the page - this creates a "floating footer 
+
+body {
+    Display:flex 
+        - makes the body a flex container and enables it to handle child elements (i.e. Header, Main, Footer etc) according to flexbox rules; makes it easier for distribution and alignment of child elements
+
+    Flex-Direction: column;
+        - tells the body to arrange its children (header, main, footer, etc) in a vertical column
+
+    Min-H-Screen: 100%  (Or Height: 100%)
+        - ensures that the entire viewport height is used even if the content is not tall enough to fill it
+}
+
+main {
+    flex-grow: 1; 
+        - enables main element to expand and take up any remaining space between the header and footer
+}
