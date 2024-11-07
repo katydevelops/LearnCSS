@@ -1,3 +1,7 @@
 CSS Pseudoclasses
 
 - A pseudoclass is a keyword that can be added  to a selector to specify a special states of the selected element. Pseudoclasses essentially apply additional styling to elements based on their state or context within the document without changing the HTML or adding extra classes or IDs.
+
+:hover - trigger on click hover 
+:focus - trigger when an element "receives focus" via hovering on item or tab key
+:active - trigger when an element is being "activated by a user"; more immediate state 
